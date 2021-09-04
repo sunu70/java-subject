@@ -10,13 +10,17 @@ body{
     
 }
 
-#login-username {
+#input-username {
     border-top: none;
     border-left: none;
     border-right: none;
+    width: 306px;
     border-bottom: 2px solid black;
-    width: 387px;
     outline: none;
+}
+
+#input-submit{
+    display: none;
 }
 
 .clock{

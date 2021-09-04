@@ -8,15 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <input type="submit" value="Log In" />
-      </form>
+    <form id="login-form" class="hidden">
+      <h1>What is your name?</h1>
+      <input id="input-username" type="text" required>
+      <input id="input-submit" type="submit" value="Login">
+    </form>
+
       <h1 id="greeting" class="hidden"></h1>
 
     <div class="clock">
