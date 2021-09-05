@@ -37,11 +37,29 @@ body img {
   background: transparent;
 }
 
+<<<<<<< HEAD
 #input-submit {
   display: none;
 }
 
 .clock {
+=======
+#input-username {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 306px;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#input-submit{
+    display: none;
+}
+
+.clock{
+    
+>>>>>>> 2e427c799ed60ac38069b3ee87a9b1379967184b
 }
 
 #todo-form input {
