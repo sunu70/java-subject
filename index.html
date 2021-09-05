@@ -8,22 +8,35 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <input type="submit" value="Log In" />
-      </form>
+    <form id="login-form" class="hidden">
+      <h1>What is your name?</h1>
+      <input id="input-username" type="text" required>
+      <input id="input-submit" type="submit" value="Login">
+    </form>
+
       <h1 id="greeting" class="hidden"></h1>
 
     <div class="clock">
         <h1 id="now-time"></h1>
     </div>
+    <form id="todo-form">
+      <h1>To Do List</h1>
+      <input type="text" >
+    </form>
+    <ul id="todo-list">
+    </ul>
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
 
     <script src="js/clock.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
+
+// I'm so busy these days that it's sad that I skipped the challenge. ㅠㅠ I'll try to make the next challenge with passion!
